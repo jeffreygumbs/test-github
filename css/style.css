@@ -12,4 +12,27 @@ body{
     background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero_classic.jpg);
     background-size: cover;
     height: 100vh;
+    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%)
+}
+.nav-contaner{
+    
+    display: flex;
+    justify-content: flex-end;
+    padding: .5rem 1rem;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.nav-contaner a{
+    padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+    color: #fff;
+    text-decoration: none;
+    transition: 2s;
+}
+.nav-contaner a:hover{
+    border-bottom: 2px solid rgb(3, 131, 82);
+    
 }
